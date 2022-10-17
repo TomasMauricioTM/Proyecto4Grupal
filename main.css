@@ -1,0 +1,457 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header{
+  margin: auto;
+  
+  width: 960px;
+height: 33px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.nav ul{
+  
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  list-style: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* PERFIL */
+
+.main{
+ 
+  margin: auto;
+  width: 960px;
+height: 3097px;
+position: relative;
+}
+
+.perfil{
+  
+  width: 796px;
+height: 381px;
+position: absolute;
+left: 79px;
+top: 0px;
+}
+
+/*  */
+.hola{
+   
+  position: absolute;
+  left: 2.5em;
+  top: 45px;
+}
+
+.parrafo-uno{
+  
+  position: absolute;
+  width: 350px;
+height: 100px;
+padding: 10px;
+left: 2em;
+top: 70px;
+}
+
+.parrafo-dos{
+   
+  position: absolute;
+  width: 350px;
+height: 120px;
+top: 120px;
+padding: 10px;
+word-break:break-all;
+left: 2em;
+top: 11em;
+}
+
+.btn-uno{
+  
+  position: absolute;
+  left: 2em;
+  bottom: 25px;
+  
+}
+
+.btn-descargar{
+  padding: 8px;
+  color: #fff;
+  background-color: #6D0AD3;
+  border: solid #6D0AD3;
+  width: 10em;
+}
+
+.icon-dos{
+   
+  position: absolute;
+   width: 210px;
+  
+  left: 12em;
+  bottom: 19px;
+  
+}
+
+.icon-dos ul{
+display: flex;
+
+list-style: none;
+gap: 20px;
+padding: 10px;
+align-items: center;
+}
+
+.img-perfil{
+   
+  position: absolute;
+  width: 300px;
+height: 300px;
+right: 95px;
+bottom: 25px;
+}
+
+.barra-uno{
+
+  position: absolute;
+  right: 0;
+  bottom: 14em;
+ 
+ 
+}
+
+.twitter{
+
+  position: absolute;
+  right: 0;
+  bottom: 190px;
+ 
+}
+
+
+
+/*  */
+/* PORTAFOLIO */
+
+.portafolio{
+  
+  color: chartreuse;
+  position: absolute;
+  width: 956px;
+height: 460px;
+  
+  top: 450px;
+}
+
+.title-uno{
+padding: 5px;
+}
+
+.fig-portafolio{
+  
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+  flex-wrap: wrap;
+ 
+}
+
+.fig-portafolio img{
+
+ width: 190px;
+ height: auto;
+}
+
+
+.fig-portafolio ul{
+  list-style: none;
+}
+
+/* SERVICES */
+.service{
+   
+  width: 796px;
+height: 381px;
+position: absolute;
+left: 79px;
+top: 60em;
+}
+.s-uno{
+  color:  #0098EF;;
+}
+.cj-service {
+  display: grid;
+ 
+  height: 340px;
+  grid-gap: 1rem;
+  justify-content: center;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  padding: 5PX;
+  
+}
+
+.g-uno{
+ background-color: #00CF95;;
+}
+
+/* BLOG */
+
+.blog{
+  
+  position: absolute;
+  width: 955px;
+height: 508px;
+bottom: 75em;
+}
+
+/* .blog-caja{
+  
+} */
+
+.blog-caja {
+  display: grid;
+  grid-gap: 1rem;
+  height: 475px;
+  justify-content: center;
+  grid-template-columns: 305px 135px 145px 235px;
+  grid-template-rows: 200px 200px;
+  padding: 20px;
+  gap: 25px;
+  
+}
+
+.grip-uno{
+  font-size: 12px;
+ padding: 5px;
+}
+.grip-tres{
+  
+  font-size: 13px;
+  position: relative;
+  padding: 5px;
+}
+
+.g-img-tres{
+  width: 235px;
+  height: 110px;
+  position: absolute;
+  bottom: 0;
+}
+
+.grip-cuatro{
+  font-size: 15px;
+  padding: 5px;
+  
+}
+.grip-cinco{
+  font-size: 15px;
+  padding: 5px;
+  
+}
+
+.grip-seis{
+  font-size: 17px;
+  
+  position: relative;
+}
+.e-mail{
+  width: 140px;
+  height: 35px;
+  padding: 5px;
+}
+.btn-sub{
+  width: 90px;
+height: 35px;
+background-color: #6D0AD3;
+color: #fff;
+border-radius: 2px;
+border-color: #6D0AD3;
+}
+
+.cj-botonera{
+  position: absolute;
+  bottom: 0;
+}
+
+/* CONTACTO */
+
+.contacto{
+  
+  width: 799px;
+height: 472px;
+position: absolute;
+bottom: 0;
+bottom: 40em;
+left: 77.5px;
+
+}
+
+.nombre{
+   border: 1px solid #BFBFBF;
+ width: 308px;
+height: 57px;
+position: absolute;
+left: 100px;
+top: 50px;
+border-radius: 10px;
+}
+
+.apellido{
+  border: 1px solid #BFBFBF;
+ width: 308px;
+height: 57px;
+position: absolute;
+left: 430px;
+top: 50px;
+border-radius: 10px;
+}
+
+.email{
+  border: 1px solid #BFBFBF;
+   width: 308px;
+height: 57px;
+position: absolute;
+left: 100px;
+top: 140px;
+border-radius: 10px;
+}
+
+.telefono{
+  border: 1px solid #BFBFBF;
+  width: 308px;
+height: 57px;
+position: absolute;
+left: 430px;
+top: 140px;
+border-radius: 10px;
+}
+
+.descripcion{
+  border: 1px solid #BFBFBF;
+  width: 636px;
+height: 112px;
+position: absolute;
+left: 100px;
+top: 230px;
+border-radius: 10px;
+}
+
+.cj-btn-dos{
+
+display: flex;
+justify-content: center;
+}
+
+.btn-dos{
+  border: 1px solid #233451;
+  padding: 10px;
+  width: 130px;
+  position: absolute;
+  font-size: 18px;
+  top: 400px;
+  color: #fff;
+  background-color: #6D0AD3;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+/* FOOTER */
+.footer{
+  position: absolute;
+ 
+  bottom: 0;
+   width: 956px;
+height: 420px;
+
+}
+
+.f-img{
+ 
+ position: absolute;
+ bottom: 20em;
+ left: 3em;
+}
+
+.f-uno{
+  
+  width: 120px;
+  color: #262626;
+  position: absolute;
+  bottom: 20em;
+ left: 25em;
+ color: #00CF95;
+ 
+}
+.f-dos{
+
+width: 210px;
+color: #262626;
+ position: absolute;
+  bottom: 18em;
+ left: 22.5em;
+ color: #00CF95;
+}
+.f-tres{
+
+width: 210px;
+color: #262626;
+ position: absolute;
+  bottom: 5em;
+ left: 37em;
+ font-size: 10px;
+}
+
+.icon-tres{
+   
+  position: absolute;
+   width: 210px;
+ 
+  right: 3em;
+  bottom: 20em;
+  
+}
+
+.icon-tres ul{
+display: flex;
+
+list-style: none;
+gap: 20px;
+padding: 10px;
+align-items: center;
+}
+
+.f-nav{
+   
+  position: absolute;
+   width: 430px;
+  
+  left: 16em;
+  bottom: 180px;
+  
+}
+
+.f-nav ul{
+display: flex;
+color: #262626;
+font-weight: bold;
+list-style: none;
+gap: 20px;
+padding: 10px;
+align-items: center;
+}
